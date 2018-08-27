@@ -1,0 +1,10 @@
+disabled_rules:
+- identifier_name
+
+excluded: # paths to ignore during linting.
+- Package.swift
+
+# parameterized rules can be customized from this configuration file
+line_length: 200
+
+reporter: "xcode" # reporter type (xcode, json, csv)
